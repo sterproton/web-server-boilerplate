@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb-base",
+  "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module"
+  },
+  "rules": {
+      "indent": [1,4],
+      "semi" : [1,"never"],
+      "linebreak-style": 0,
+      "no-extra-semi":"warn",
+      // "no-restricted-syntax":"warn",
+      "prefer-destructuring": "warn"
+  }
+}
